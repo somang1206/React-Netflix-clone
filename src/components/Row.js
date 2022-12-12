@@ -24,7 +24,7 @@ export default function Row({isLargeRow, title, id, fetchUrl}) {
     };
 
 
-  return <section className='row'>
+  return <section className='row'> 
     <h2>{title}</h2>
     <div className='slider'>
         <div className='slider__arrow-left'>

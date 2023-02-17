@@ -37,7 +37,7 @@ export default function Nav() {
         alt="netflix_logo"
         src="/img/netflix_logo.png"
         className='nav__logo'
-        onClick={()=>window.location.reload()}
+        onClick={()=>navigate("/")}
         />
 
     <input 
